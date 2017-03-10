@@ -1,0 +1,59 @@
+body {
+	margin: 0.2;
+	background-image: url(background2.jpg);
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1 {
+	color: purple;
+}
+h2 {
+	color: navy;
+}
+h3 {
+	color: blue;
+}
+
+.indent {
+	text-indent: 600px;
+	height: 50px;
+}
+ul li {
+	list-style-type: none;
+}
+.menu
+ul li {
+	display: inline-block;
+	height: 80px;
+	column-width: 500px;
+	text-align: center;
+	line-height: 80px;
+	margin: 0;
+	padding: 0;
+	border: 2px solid purple;
+	border-radius: 10px 3px;
+	background-color: #cdb5cd;
+}
+  footer {
+	text-align: center;
+  }
+ .left {
+ 	float: left;
+ 	width: 30%;
+ 	line-height: 60px;
+}
+.right{
+	float: left;
+	width: 70%;
+}
+
+/*Gallery*/
+
+.gallery {
+	display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: baseline;
+}
